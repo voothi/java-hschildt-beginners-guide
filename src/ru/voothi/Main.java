@@ -5,7 +5,9 @@ public class Main {
         int i, k;
         i = 0;
         k = 0;
-        k = ++i;
+//        k = ++i;
+        i = i + 1;
+        k = i;
         System.out.println("k = " + k);
     }
 }
